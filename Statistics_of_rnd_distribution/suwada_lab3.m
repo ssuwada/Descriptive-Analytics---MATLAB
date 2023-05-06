@@ -4,6 +4,9 @@
 %     Sebastian Suwada
 %
 
+clear; 
+load('lab3.mat');
+
 %%  DESCRIPTION
 
 %   For each sample use two kernel functions with two bandwidth values (for each function) and plot
@@ -88,8 +91,11 @@ qqplot(x3);
 %   assumed distribution. In this case plots from data 'x1' and 'x2' are
 %   very close and oscilate next to middle line. Last 'x3' data is way to
 %   much out of them and in my opinion is not normal distribution. In
-%   conclude I would guess that data from 'x1' and 'x2' are normally distributed.
-%%
+%   conclude I would say that data from 'x1' and 'x2' are normally distributed.
+%% Display
+disp('--------------------------------------------------------------')
+disp('I would say that data from x1 and x2 are normally distributed.');
+disp('--------------------------------------------------------------')
 
 
 
